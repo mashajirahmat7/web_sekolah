@@ -63,3 +63,56 @@ body{
     font-weight: bold;
     color: whitesmoke;
 }
+
+.content{
+    float: left;
+    width: 500px;
+    background-color: thistle;
+}
+
+.content .content1{
+    background-color: turquoise;
+    width: 200px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.content .content2 {
+    background-color: turquoise;
+    width: 200px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.content3 {
+    background-color: turquoise;
+    width: 200px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.sidebar{
+    float: right;
+    width: 400px;
+}
+
+.sidebar .sidebar1{
+    margin-bottom: 5px;
+    overflow: hidden;
+    background-color: skyblue;
+}
+
+.sidebar .sidebar2 {
+    margin-bottom: 5px;
+    overflow: hidden;
+    background-color: skyblue;
+}
+
+.footer{
+    clear: both;
+    text-align: center;
+    background-color: #1f1fad;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
