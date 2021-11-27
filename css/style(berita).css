@@ -1,0 +1,118 @@
+*{
+    padding: 0 auto;
+    margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: azure;
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.header{
+    background: repeat-x #1f1fad;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.header img{
+    width: 110px;
+    height: 110px;
+}
+
+.header h1{
+    text-align: center;
+    position: relative;
+    margin-top: -100px;
+    color: whitesmoke;
+}
+
+.header #daftar-menu {
+    list-style: none;
+    margin-top: 4px;
+}
+
+.header #daftar-menu li{
+    float: left;
+    margin-top: 60px;
+    padding: 5px 20px;
+    border-right: 2px solid whitesmoke;
+}
+
+.header #daftar-menu li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.header form{
+    float: right;
+    margin-top: 64px;
+    padding-right: 15px;
+    padding-top: 5px;
+}
+
+.header form label{
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.content{
+    float: left;
+    width: 500px;
+    background-color: thistle;
+}
+
+.content .content1{
+    background-color: turquoise;
+    width: 200px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.content .content2 {
+    background-color: turquoise;
+    width: 200px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.content3 {
+    background-color: turquoise;
+    width: 200px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.sidebar{
+    float: right;
+    width: 400px;
+}
+
+.sidebar .sidebar1{
+    margin-bottom: 5px;
+    overflow: hidden;
+    background-color: skyblue;
+}
+
+.sidebar .sidebar2 {
+    margin-bottom: 5px;
+    overflow: hidden;
+    background-color: skyblue;
+}
+
+.footer{
+    clear: both;
+    text-align: center;
+    background-color: #1f1fad;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
